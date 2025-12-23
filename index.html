@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6efe9" />
+    <meta name="description" content="الموقع التعريفي لدير رئيس الملائكة غبريال (أبي خشبة) بجبل النقلون — الفيوم، مصر." />
+
+    <title>دير الملاك غبريال — الفيوم</title>
+
+    <!-- Fonts (Arabic) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap (Carousel) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+
+    <div id="top" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="العودة للأعلى">
+          <span class="brand-mark" aria-hidden="true">✝</span>
+          <span class="brand-text">
+            <span class="brand-title">دير الملاك غبريال</span>
+            <span class="brand-subtitle">الفيوم</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">
+          <span class="nav-toggle-lines" aria-hidden="true"></span>
+          <span class="sr-only">فتح/إغلاق القائمة</span>
+        </button>
+
+        <nav class="nav" id="primary-nav" aria-label="التنقل الرئيسي">
+          <a class="nav-link" href="#home">الرئيسية</a>
+          <a class="nav-link" href="#about">نبذة</a>
+          <a class="nav-link" href="#monks">الرهبان</a>
+          <a class="nav-link" href="#gallery">صور الدير</a>
+          <a class="nav-link" href="#patriarchs">زيارات البطاركة</a>
+          <a class="nav-link" href="#martyrs">شهداء الدير</a>
+          <a class="nav-link" href="#activities">أنشطة الدير</a>
+          <a class="nav-link" href="#map">الموقع</a>
+          <a class="nav-link" href="#contact">تواصل</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO / SLIDER -->
+      <section class="section hero" id="home" aria-label="صور الدير">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>دير الملاك غبريال — جبل النقلون (الفيوم)</h1>
+            <p class="lead">
+              مكان روحي تُقام فيه الصلوات والقداسات، ونرحّب بكل محبّي الدير لزيارة مباركة.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">تواصل معنا</a>
+              <a class="btn btn-ghost" href="#map">افتح الموقع على الخريطة</a>
+            </div>
+
+            <div class="info-strip" role="list" aria-label="معلومات سريعة">
+              <div class="info-item" role="listitem">
+                <span class="info-k">القداسات</span>
+                <span class="info-v">حسب جدول الدير</span>
+              </div>
+              <div class="info-item" role="listitem">
+                <span class="info-k">الزيارات</span>
+                <span class="info-v">برجاء التواصل قبل الحضور</span>
+              </div>
+              <div class="info-item" role="listitem">
+                <span class="info-k">الموقع</span>
+                <span class="info-v">جبل النقلون — الفيوم — مصر</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-slider" aria-label="سلايدر صور الدير">
+            <div
+              id="heroCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-interval="4500"
+              dir="ltr"
+            >
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="شريحة 1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="شريحة 2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="شريحة 3"></button>
+              </div>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/slider-1.jpg"
+                    class="d-block w-100"
+                    alt="صورة للدير 1"
+                    loading="eager"
+                    fetchpriority="high"
+                    decoding="async"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/slider-2.jpg"
+                    class="d-block w-100"
+                    alt="صورة للدير 2"
+                    loading="eager"
+                    decoding="async"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/slider-3.jpg"
+                    class="d-block w-100"
+                    alt="صورة للدير 3"
+                    loading="eager"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="السابق">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="التالي">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section" id="about" aria-label="نبذة عن الدير">
+        <div class="container">
+          <div class="section-head">
+            <h2>نبذة عن الدير</h2>
+            <p>تعريف مختصر بتاريخ الدير ورسالة المكان الروحية.</p>
+          </div>
+
+          <div class="card prose">
+            <p>
+              <b>دير رئيس الملائكة غبريال</b> (المعروف أيضًا باسم <b>دير أبي خشبة/دير أبو خشبة</b>) يقع في <b>جبل النقلون</b> بمحافظة الفيوم — مصر.
+              ويُذكر تاريخيًا أن الدير مرتبط ببرية النقلون التي عرفت الحياة الرهبانية منذ القرون الأولى.
+            </p>
+
+            <p>
+              <b>الموقع</b>: بالقرب من مدينة الفيوم، وعلى مسافة تقارب <b>10 كم</b> من الطريق الصحراوي الغربي عند مدخل الفيوم (بحسب الوصف المتداول).
+            </p>
+
+            <p>
+              <b>بداية الحياة الرهبانية</b>: تُنسب بدايات الحياة الرهبانية في هذه البرية إلى <b>القرن الرابع الميلادي</b>.
+              ويُذكر أن القديس الأنبا أنطونيوس زار رهبان برية النقلون مرتين (منها زيارة تُؤرخ بسنة <b>285م</b>، وأخرى في أوائل القرن الرابع).
+            </p>
+
+            <p>
+              <b>الرهبنة الحديثة</b>: عادت الحياة الرهبانية في أواخر الثمانينيات من القرن العشرين، وتجدّد الاعتراف بالدير بعد استيفاء الشروط (ذُكر تاريخ <b>29/5/1999</b>).
+            </p>
+
+            <ul class="ticks">
+              <li><b>كنائس الدير</b><span class="tick-sep">:</span> <span class="tick-body">كنيسة رئيس الملائكة غبريال، وكنيسة رئيس الملائكة ميخائيل.</span></li>
+              <li><b>ذخائر ورفات</b><span class="tick-sep">:</span> <span class="tick-body">يُذكر وجود رفات لآباء رهبان من شهداء الفيوم.</span></li>
+              <li><b>المغائر</b><span class="tick-sep">:</span> <span class="tick-body">تم حصر <b>68 مغارة</b> بالمنطقة الشرقية، منها مغارة الأنبا صموئيل المعترف، وتم تجهيز <b>15 مغارة</b> لتصلح لسكنى المتوحدين.</span></li>
+              <li><b>سبب التسمية (أبي خشبة)</b><span class="tick-sep">:</span> <span class="tick-body">تُروى تقاليد محلية عن "خشبة" بسقف الكنيسة لها علامة مرتبطة بفيضان النيل.</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- MONKS COUNT -->
+      <section class="section" id="monks" aria-label="عدد الآباء الرهبان">
+        <div class="container">
+          <div class="section-head">
+            <h2>عدد الآباء الرهبان</h2>
+            <p>إحصائية مبسطة (قابلة للتحديث).</p>
+          </div>
+
+          <div class="stats">
+            <div class="stat card">
+              <div class="stat-number" data-count="24">24</div>
+              <div class="stat-label">أب راهب (ذُكر بأوائل الألفية الثالثة)</div>
+            </div>
+            <div class="stat card">
+              <div class="stat-number" data-count="6">6</div>
+              <div class="stat-label">طالبي رهبنة (ذُكر بأوائل الألفية الثالثة)</div>
+            </div>
+            <div class="stat card">
+              <div class="stat-number" data-count="2">2</div>
+              <div class="stat-label">كنائس بالدير</div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="section" id="gallery" aria-label="صور الدير">
+        <div class="container">
+          <div class="section-head">
+            <h2>صور الدير</h2>
+            <p>لقطات من الكنيسة، السور، المزار، واستقبال الزائرين.</p>
+          </div>
+
+          <div class="grid gallery">
+            <a class="tile" href="assets/gallery-1.jpg" target="_blank" rel="noopener" aria-label="فتح صورة 1">
+              <img src="assets/gallery-1.jpg" alt="صورة للدير - معرض 1" loading="lazy" />
+            </a>
+            <a class="tile" href="assets/gallery-2.jpg" target="_blank" rel="noopener" aria-label="فتح صورة 2">
+              <img src="assets/gallery-2.jpg" alt="صورة للدير - معرض 2" loading="lazy" />
+            </a>
+            <a class="tile" href="assets/gallery-3.jpg" target="_blank" rel="noopener" aria-label="فتح صورة 3">
+              <img src="assets/gallery-3.jpg" alt="صورة للدير - معرض 3" loading="lazy" />
+            </a>
+            <a class="tile" href="assets/gallery-4.jpg" target="_blank" rel="noopener" aria-label="فتح صورة 4">
+              <img src="assets/gallery-4.jpg" alt="صورة للدير - معرض 4" loading="lazy" />
+            </a>
+            <a class="tile" href="assets/gallery-5.jpg" target="_blank" rel="noopener" aria-label="فتح صورة 5">
+              <img src="assets/gallery-5.jpg" alt="صورة للدير - معرض 5" loading="lazy" />
+            </a>
+            <a class="tile" href="assets/gallery-6.jpg" target="_blank" rel="noopener" aria-label="فتح صورة 6">
+              <img src="assets/gallery-6.jpg" alt="صورة للدير - معرض 6" loading="lazy" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- PATRIARCH VISITS -->
+      <section class="section" id="patriarchs" aria-label="زيارات الآباء البطاركة">
+        <div class="container">
+          <div class="section-head">
+            <h2>زيارات الآباء البطاركة عبر العصور</h2>
+            <p>
+              محطات تاريخية وروحية مرتبطة بالدير عبر العصور. قد لا تتوفر تفاصيل كل زيارة بطريركية بشكل فردي هنا،
+              لكن مكانة الدير في تاريخ الرهبنة المصرية جعلته حاضرًا في ذاكرة الكنيسة ومصادرها.
+            </p>
+          </div>
+
+          <div class="timeline card">
+            <div class="tl-item">
+              <div class="tl-dot" aria-hidden="true"></div>
+              <div class="tl-content">
+                <h3>التأسيس والرهبنة المبكرة — القرن الرابع الميلادي</h3>
+                <p>
+                  تُنسب بدايات الحياة الرهبانية ببرية النقلون إلى القرن الرابع الميلادي.
+                  ويُذكر أن القديس الأنبا أنطونيوس زار رهبان برية النقلون مرتين (منها زيارة تُؤرخ بسنة 285م، وأخرى في أوائل القرن الرابع).
+                </p>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot" aria-hidden="true"></div>
+              <div class="tl-content">
+                <h3>بركة القديس الأنبا صموئيل المعترف</h3>
+                <p>
+                  تشرفت برية النقلون بأن عاش فيها القديس الأنبا صموئيل المعترف مدة ثلاث سنوات ونصف.
+                  وتُعد هذه المرحلة من العلامات الروحية المهمة في تراث الدير.
+                </p>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot" aria-hidden="true"></div>
+              <div class="tl-content">
+                <h3>العودة الرهبانية والنهضة الحديثة — أواخر الثمانينيات</h3>
+                <p>
+                  بعد فترة انقطاع في القرن العشرين، عادت الحياة الرهبانية في أواخر الثمانينيات بجهود نيافة الأنبا أبرام أسقف الفيوم.
+                  وتجدّد الاعتراف بالدير بعد استيفاء الشروط (ذُكر تاريخ 29/5/1999).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MARTYRS -->
+      <section class="section" id="martyrs" aria-label="شهداء الدير">
+        <div class="container">
+          <div class="section-head">
+            <h2>شهداء الدير</h2>
+            <p>لمحة موجزة عن رفات شهداء الفيوم الذين عُثر عليهم بالدير خلال أعمال الحفر والتوسعة.</p>
+          </div>
+
+          <div class="grid cards-3">
+            <article class="card">
+              <h3>اكتشاف الرفات (1991)</h3>
+              <p>
+                بحسب ما ورد، تم العثور على الأجساد/الرفات أثناء أعمال حفر وتوسعة في الجزء القبلي من الدير:
+                أولًا في 28 يوليو 1991، ثم عُثر على المزيد في 25 أغسطس 1991 (ومنها صناديق من خشب النخيل)،
+                ثم اكتشاف جسد طفل صغير في 1 سبتمبر 1991.
+              </p>
+            </article>
+            <article class="card">
+              <h3>علامات الاستشهاد</h3>
+              <p>
+                ذُكر وجود دلائل تشير إلى الاستشهاد مثل: بقايا من الزي الرهباني وآثار الصلبان على الملابس،
+                وتمزقات في أجزاء جلدية، وآثار حرق على بعض الأجساد، وكذلك وجود جسد بدون رأس ضمن الرفات.
+              </p>
+            </article>
+            <article class="card">
+              <h3>عيدهم وبركتهم</h3>
+              <p>
+                ارتبط يوم 1 سبتمبر بعيدهم السنوي بحسب التقليد المتداول، وتُعد رفاتهم مصدر بركة للكنيسة.
+                كما ذُكر أن أجزاء من الرفات قد انتقلت إلى كنائس في مصر والمهجر.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ACTIVITIES / HYMNS -->
+      <section class="section" id="activities" aria-label="أنشطة الدير">
+        <div class="container">
+          <div class="section-head">
+            <h2>أنشطة الدير</h2>
+            <p>الصلاة والعبادة، الحياة الرهبانية، استقبال الزائرين، والحفاظ على التراث القبطي.</p>
+          </div>
+
+          <div class="grid cards-2">
+            <article class="card">
+              <h3>الصلوات والقداسات</h3>
+              <p>
+                تُقام الصلوات والقداسات في كنائس الدير، وأبرزها كنيسة رئيس الملائكة غبريال وكنيسة رئيس الملائكة ميخائيل.
+                ويأتي الزائرون لطلب البركة والاشتراك في الأجواء الروحية الهادئة.
+              </p>
+            </article>
+            <article class="card">
+              <h3>الحياة الرهبانية والتراث</h3>
+              <p>
+                تُعد برية النقلون مركزًا تاريخيًا للرهبنة في مصر منذ القرون الأولى، مع مغائر قديمة ارتبطت بسكنى الرهبان والمتوحدين
+                (ومنها مغارة الأنبا صموئيل المعترف). كما يضم الدير كنوزًا أثرية مثل فريسكات قبطية وأيقونات نادرة.
+              </p>
+            </article>
+          </div>
+
+          <div class="section-subhead">
+            <h3>أناشيد الدير</h3>
+            <p>قائمة بسيطة (يمكن إضافة ملفات صوت/روابط لاحقًا).</p>
+          </div>
+
+          <div class="card list">
+            <a class="list-item" href="#" aria-disabled="true">مديح/تسبحة — (قريبًا)</a>
+            <a class="list-item" href="#" aria-disabled="true">ألحان المناسبات — (قريبًا)</a>
+            <a class="list-item" href="#" aria-disabled="true">ترانيم روحية — (قريبًا)</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXTRA SECTIONS (common) -->
+      <section class="section" id="schedule" aria-label="مواعيد الزيارات والقداسات">
+        <div class="container">
+          <div class="section-head">
+            <h2>مواعيد الزيارات والقداسات</h2>
+            <p>مواعيد إرشادية للزيارة—ويُفضّل التأكيد مع الدير قبل الحضور لأن المواعيد قد تتغير.</p>
+          </div>
+
+          <div class="grid cards-3">
+            <div class="card">
+              <h3>أيام الزيارة</h3>
+              <p>
+                المعتاد: <b>الجمعة والسبت والأحد</b> من كل أسبوع.
+                وتُتاح الزيارة أيضًا في <b>الأعياد</b> وبعض <b>المناسبات الخاصة</b>.
+              </p>
+            </div>
+            <div class="card">
+              <h3>الزيارات</h3>
+              <p>
+                <b>شتاءً</b>: من 6:00 ص إلى 6:00 م.
+                <br />
+                <b>صيفًا</b>: من 6:00 ص إلى 7:00 م.
+              </p>
+            </div>
+            <div class="card">
+              <h3>تعليمات</h3>
+              <p>
+                لا تُستقبل الزيارات عادةً في <b>الاثنين والثلاثاء والأربعاء والخميس</b>، وكذلك <b>أسبوع الآلام</b>.
+                وقد يُغلق الدير في بعض فترات الأصوام.
+                <br />
+                <b>ملاحظة</b>: مواعيد <b>القداسات</b> تختلف حسب اليوم والكاهن—برجاء التأكيد مع الدير قبل الزيارة.
+              </p>
+            </div>
+          </div>
+
+          <p class="note">
+            تنبيه: هذه المعلومات كانت متداولة (وورد أنها لقرابة عام 2020) وقد تتغير. الأفضل مراجعة آخر إعلان رسمي أو التواصل مع الدير للتأكيد.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-label="أسئلة شائعة">
+        <div class="container">
+          <div class="section-head">
+            <h2>أسئلة شائعة</h2>
+            <p>إجابات سريعة لأكثر الأسئلة تكرارًا.</p>
+          </div>
+
+          <div class="accordion">
+            <details class="card">
+              <summary>هل الزيارة تحتاج حجز؟</summary>
+              <p>
+                الزيارات العادية غالبًا لا تحتاج حجزًا مسبقًا.
+                لكن <b>المبيت</b> أو <b>الخلوة</b> قد يتطلبان <b>تصريحًا/تنسيقًا مسبقًا</b> حسب نظام الدير.
+              </p>
+            </details>
+            <details class="card">
+              <summary>هل يوجد مواقف سيارات؟</summary>
+              <p>
+                عادةً تتوفر مساحات لركن السيارات للزائرين بالقرب من الدير.
+                ويُفضّل الالتزام بتوجيهات الأمن والرهبان، ومراعاة هدوء المكان.
+              </p>
+            </details>
+            <details class="card">
+              <summary>هل التصوير مسموح؟</summary>
+              <p>
+                التصوير الشخصي (هاتف/كاميرا) يكون مسموحًا غالبًا في الأماكن المفتوحة.
+                داخل الكنائس أو أثناء الصلوات: برجاء <b>الاستئذان</b> والالتزام بتعليمات الدير.
+                كما يُفضّل عدم تصوير الأشخاص دون إذن حفاظًا على الخصوصية.
+              </p>
+            </details>
+          </div>
+
+          <p class="note">قد تختلف التفاصيل حسب اليوم والموسم—برجاء التأكيد قبل الزيارة.</p>
+        </div>
+      </section>
+
+      <!-- MAP -->
+      <section class="section" id="map" aria-label="موقع الدير على جوجل ماب">
+        <div class="container">
+          <div class="section-head">
+            <h2>موقع الدير على الخريطة</h2>
+            <p>خريطة توضيحية لموقع دير الملاك غبريال (جبل النقلون).</p>
+          </div>
+
+          <div class="card map">
+            <iframe
+              title="خريطة موقع الدير"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=29.1946575,30.8778942&z=14&output=embed"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <p class="note">لو لم تظهر الخريطة لديك، جرّب فتح الرابط مباشرة من خرائط جوجل.</p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact" aria-label="تواصل معنا">
+        <div class="container">
+          <div class="section-head">
+            <h2>تواصل معنا</h2>
+            <p>اتصل أو أرسل بريدًا، أو اترك رسالة.</p>
+          </div>
+
+          <div class="grid contact-grid">
+            <div class="card">
+              <h3>بيانات التواصل</h3>
+              <div class="contact-items">
+                <a class="contact-item" href="tel:+201000000000">
+                  <span class="contact-k">هاتف</span>
+                  <span class="contact-v">+20 12 855 559 56</span>
+                </a>
+                <a
+                  class="contact-item"
+                  href="https://www.facebook.com/p/%D8%AF%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D9%84%D8%A7%D9%83-%D8%BA%D8%A8%D8%B1%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%B1-%D8%A8%D8%AC%D8%A8%D9%84-%D8%A7%D9%84%D9%86%D9%82%D9%84%D9%88%D9%86-100068767464717/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <span class="contact-k">فيسبوك</span>
+                  <span class="contact-v">صفحة الدير الرسمية</span>
+                </a>
+                <div class="contact-item" role="group" aria-label="العنوان">
+                  <span class="contact-k">العنوان</span>
+                  <span class="contact-v">جبل النقلون (مركز إطسا) — الفيوم — مصر</span>
+                </div>
+              </div>
+
+              <p class="note">غيّر رقم الهاتف والإيميل للبيانات الرسمية.</p>
+            </div>
+
+            <form class="card form" onsubmit="return false" aria-label="نموذج تواصل">
+              <h3>أرسل رسالة</h3>
+              <div class="form-row">
+                <label>
+                  <span>الاسم</span>
+                  <input type="text" name="name" autocomplete="name" placeholder="اكتب اسمك" />
+                </label>
+                <label>
+                  <span>رقم الموبايل</span>
+                  <input type="tel" name="phone" autocomplete="tel" placeholder="اختياري" />
+                </label>
+              </div>
+              <label>
+                <span>البريد الإلكتروني</span>
+                <input type="email" name="email" autocomplete="email" placeholder="example@email.com" />
+              </label>
+              <label>
+                <span>الرسالة</span>
+                <textarea name="message" rows="5" placeholder="اكتب رسالتك هنا..."></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit">إرسال (واجهة فقط)</button>
+              <p class="hint">لاحقًا.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="تذييل الموقع">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> دير الملاك غبريال — الفيوم</p>
+        <a class="to-top" href="#top">رجوع للأعلى</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
